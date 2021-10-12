@@ -4,6 +4,7 @@
 // 2 to the 1 power is: 2.0
 // 2 to the 2 power is: 4.0
 // 2 to the 3 power is: 8.0
+// etc. all the way to 10th power.
 
 package powers.of.two.kody.abbott;
 
