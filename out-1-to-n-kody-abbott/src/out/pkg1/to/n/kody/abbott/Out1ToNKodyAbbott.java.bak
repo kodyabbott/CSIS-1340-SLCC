@@ -1,0 +1,20 @@
+// Ask the user for a positive whole number > 0, call it N.  
+// Output all the numbers from 1 up to N on the screen.
+
+// This is a solution without using Keyboard.java and using java.util.Scanner instead.
+
+package out.pkg1.to.n.kody.abbott;
+
+import java.util.Scanner;
+
+public class Out1ToNKodyAbbott {
+
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.print("Enter a positive whole number > 0: ");
+        int n = input.nextInt();
+        for (int i = 1; i <= n; i++) {
+            System.out.println(i);
+        }
+    }
+}
