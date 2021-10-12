@@ -1,2 +1,3 @@
 # CSIS 1340 - INTRODUCTION TO PROGRAMMING
-A first course in programming. This course introduces the fundamental concepts of programming using an object-oriented language such as Java. No prior programming experience is necessary for successful course completion. Topics include: syntax, control structures, arrays and algorithms.
+Code created to complete this course from SLCC.
+Topics include: syntax, control structures, arrays and algorithms.
