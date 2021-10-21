@@ -42,7 +42,7 @@ public class OutToAFileKodyAbbott {
 
             System.out.println("Do you want to enter another employee? (y/n)");
             answer = k.readWord();
-        } while (answer.equals("y"));
+        } while (answer.equalsIgnoreCase("y"));
         empFile.close();
     }
 }
