@@ -1,4 +1,0 @@
-"Kody Abbott" 40.0 32.25
- "Robyn Mahon" 30.0 42.25
- "Gayla Stewart" 35.5 45.75
- 

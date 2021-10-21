@@ -23,7 +23,7 @@ public class OutToAFileKodyAbbott {
     public static void main(String[] args)
     {
         OutputFile empFile;
-        empFile = new OutputFile("employee-file.txt");
+        empFile = new OutputFile("employeefile.txt");
         String name, rate, hours, answer;
         Keyboard k;
         k = new Keyboard();
@@ -37,7 +37,8 @@ public class OutToAFileKodyAbbott {
             hours = k.readWord();
             empFile.writeString(name);
             empFile.writeWord(rate);
-            empFile.writeWord(hours+"\n");
+            empFile.writeWord(hours);
+            empFile.writeEOL();
 
             System.out.println("Do you want to enter another employee? (y/n)");
             answer = k.readWord();
